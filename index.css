@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: rgb(234, 170, 8);
+    
+}
+.me{
+    background: rgb(87, 85, 85);
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    height: 120px;
+    align-content: flex-start;
+    border-bottom:1px solid green;
+    
+}
+.img{
+    display: flex;
+    width: 850px;
+    height: 800px;
+    size:cover;
+}
+.tab{
+    display: flex;
+    flex-direction: row;
+    grid-row: 40px;
+}
