@@ -1,27 +1,36 @@
 body{
     margin: 0px;
     padding: 0px;
-    background: rgb(234, 170, 8);
+    background: rgb(243, 177, 11);
     
 }
 .me{
-    background: rgb(87, 85, 85);
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
     justify-content: center;
-    height: 120px;
+    height: 150px;
     align-content: flex-start;
     border-bottom:1px solid green;
+    color:rgb(27, 21, 4);
     
 }
 .img{
-    display: flex;
-    width: 850px;
-    height: 800px;
-    size:cover;
+    /* height: 800px; */
+    /* width: auto fit-content; */
+    background-image: url('https://t4.ftcdn.net/jpg/03/08/69/75/360_F_308697506_9dsBYHXm9FwuW0qcEqimAEXUvzTwfzwe.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.tab{
-    display: flex;
-    flex-direction: row;
-    grid-row: 40px;
+table, th, td {
+    /* position: relative; */
+    /* gap: 20px; */
+    margin: 0px;
+    border: 1px solid black;
+    width: 50%;
+}
+#pic1{
+    width: 400px;
+    height: 400px;
+
 }
