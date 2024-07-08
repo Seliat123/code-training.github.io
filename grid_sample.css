@@ -4,6 +4,11 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.grid_sample{
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+}
 .grid-container {
 	display: grid;
 	grid-template-rows: 100px 100px 100px;
@@ -11,7 +16,6 @@ body{
 	row-gap: 10px;
 	column-gap: 20px;
     background-color: rgb(213, 99, 99);
-    width: fit-content;
 }
 .grid-item {
 	background-color: rgb(9, 169, 9);
@@ -22,3 +26,4 @@ body{
 	line-height: 100px;
 	font-size: 30px;
 }
+

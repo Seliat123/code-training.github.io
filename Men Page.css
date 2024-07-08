@@ -36,7 +36,7 @@ header{
    justify-content: space-between;
     font-size: 15px;
     font-weight: lighter;
-    margin-top: 30px;
+    margin-top: 35px;
 }
 .menu a{
     color: white;
@@ -118,23 +118,63 @@ a :hover{
 .camp p{
     margin-top: 10px;
     font-size: 15px;
-    opacity: .70;
+    /* opacity: .70; */
     background-color: whitesmoke;
     color: black;
+   justify-content: flex-start;
 }
 .camp a{
     color: black;
-    position: relative;
-    top: 30px;
+    position:relative;
+    top: 50px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-weight: bolder;
+    text-decoration: none;
+    justify-content: flex-start;
 }
 .camp a:hover{
     background-color: black;
     color: white;
     cursor: pointer;
     text-decoration: none;
+}
+.set{
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+    padding: 20px;
+    gap: 10px;
+    /* background-color: rgb(110, 135, 110); */
+}
+.set, img{
+   width: 95%;
+   height: 80%;
+   gap: 20px;
+}
+.set p{
+    margin-top: 10px;
+    font-size: 15px;
+    /* opacity: .70; */
+    background-color: whitesmoke;
+    color: black;
+   justify-content: flex-start;
+}
+.set a{
+    color: black;
+    position:relative;
+    top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    text-decoration: none;
+    justify-content: flex-start;
+}
+.set a:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;  
 }
 footer{
     display: flex;
@@ -145,7 +185,7 @@ footer{
     color: white;
     gap: 100px;
     border-top:2px solid whitesmoke;
-    margin-top: 30%;
+    margin-top: 10%;
     height: 70px;
     border: 3px solid green;
 }
